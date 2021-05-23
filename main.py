@@ -74,7 +74,7 @@ def main():
             tempRoot.setNext(players.getRoot())
             food.resetCoordinates()
         
-        time.sleep(0.1)
+        time.sleep(0.05)
         it = players.getRoot()
         it.show(screen)
         while it.getPrevious() != None:
