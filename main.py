@@ -35,7 +35,7 @@ def main():
     # Game Loop
     running = True 
     while running:
-        screen.fill((0, 100, 100))
+        screen.fill((200, 100, 100))
         screen.blit(pygame.Surface((800,60)), (0, 0))
         for i in range(1, 40):
             line(screen, (255, 255, 255), (i*20, 60), (i*20, 600), 1)

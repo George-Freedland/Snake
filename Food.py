@@ -7,10 +7,11 @@ class Food:
         self.x = 20 * xMult
         yMult = random.randint(4, 28)
         self.y = 20 * yMult
-        self.img = pygame.Surface((20, 20))
+        # self.img = pygame.Surface((20, 20))
+        self.img = pygame.image.load('images/food.png')
     
     def show(self, screen):
-        screen.blit(self.img, (self.x, self.y))
+        screen.blit(self.img, (self.x + 3, self.y + 2))
 
     def resetCoordinates(self):
         xMult = random.randint(1, 38)
