@@ -1,6 +1,8 @@
 # Snake
 Snake Game with pygame
 #
-Make sure to pip install pygame
+Make Sure you install python (python.org)
 #
-To play run python3 main.py
+Make sure to `pip install pygame`
+#
+To play run `python3 main.py`
