@@ -1,5 +1,5 @@
 # Snake
-Simple Snake Game with pygame
+Snake Game with pygame
 #
 Make sure to pip install pygame
 #
